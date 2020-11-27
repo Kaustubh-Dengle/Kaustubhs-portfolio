@@ -207,3 +207,9 @@ hr{
     text-decoration: none;
     border-radius: 1px;
 } 
+
+
+html {
+    scroll-behavior: smooth;
+}
+
