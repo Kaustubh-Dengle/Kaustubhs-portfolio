@@ -54,11 +54,12 @@ hr{
 
 .list{
     list-style: none;
+    /* padding: 0rem 0.5rem; */
 }
 
 .list-inline {
     display:inline;
-    padding: 0rem 1.5rem;
+    padding: 0rem 0.5rem;
 }
 
 /***navigation***/
@@ -132,3 +133,6 @@ hr{
     text-align: center;
 }
 
+.footer ul {
+    padding-inline-start: 0px;
+}
