@@ -123,3 +123,12 @@ hr{
 
 /***footer***/
 
+.footer {
+    background-color: #63A817;
+    color: white;
+    padding: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    text-align: center;
+}
+
