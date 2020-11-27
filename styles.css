@@ -2,7 +2,8 @@
 
 body{
     font-family: 'IBM Plex Serif', serif;
-    margin: 0px
+    margin: 0px;
+    padding: 0rem 0.1rem
 }
 /***colors***/
 
@@ -43,11 +44,16 @@ hr{
     color:white;
     
 }
-
+.link-primary:hover {
+    opacity:0.7;
+}
 .link-secondary{
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     border-radius: 1rem;
+}
+.link-secondary:hover {
+    opacity:0.7;
 }
 
 /***lists***/
@@ -80,6 +86,9 @@ hr{
     text-decoration: none;
     color:white;
 
+}
+.nav-links:hover {
+    opacity: 0.7;
 }
 .navigation .nav-tabs {
     text-align:right;
@@ -136,3 +145,65 @@ hr{
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/***social icons***/
+
+.fa {
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: 1rem
+}
+
+.fa:hover { 
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.fa-twitter {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+} 
+
+.fa-instagram {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+} 
+.fa-github {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+} 
+.fa-linkedin {
+    background: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    width: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1px;
+} 
